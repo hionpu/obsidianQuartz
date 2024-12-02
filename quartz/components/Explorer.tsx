@@ -96,7 +96,7 @@ export default ((userOpts?: Partial<Options>) => {
           aria-controls="explorer-content"
           aria-expanded={opts.folderDefaultState === "open"}
         >
-                <h2> <span role="img" aria-label="document">📄</span>{opts.title ?? i18n(cfg.locale).components.explorer.title}</h2>
+                <h2> <span role="img" aria-label="magnifying glass">🔍</span> {opts.title ?? i18n(cfg.locale).components.explorer.title}</h2>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="14"

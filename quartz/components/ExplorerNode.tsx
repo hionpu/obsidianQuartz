@@ -1,4 +1,4 @@
-// @ts-ignore
+﻿// @ts-ignore
 import { QuartzPluginData } from "../plugins/vfile"
 import {
   joinSegments,
@@ -177,7 +177,7 @@ export function ExplorerNode({ node, opts, fullPath, fileData }: ExplorerNodePro
         // Single file node
         <li key={node.file.slug}>
           <a href={resolveRelative(fileData.slug!, node.file.slug!)} data-for={node.file.slug}>
-            {node.displayName}
+            📄{node.displayName}
           </a>
         </li>
       ) : (
