@@ -34,8 +34,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 516,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -44,7 +52,7 @@
               "RelativeDocumentMoniker": "quartz.config.ts",
               "ToolTip": "D:\\PortableGit\\obsidianQuartz\\quartz.config.ts",
               "RelativeToolTip": "quartz.config.ts",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
               "WhenOpened": "2024-11-29T02:58:55.883Z",
               "EditorCaption": ""
@@ -59,8 +67,7 @@
               "RelativeToolTip": "quartz\\plugins\\emitters\\contentIndex.ts",
               "ViewState": "AgIAADkAAAAAAAAAAAAYwCYAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-11-29T02:56:24.58Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-29T02:56:24.58Z"
             },
             {
               "$type": "Document",
@@ -72,8 +79,7 @@
               "RelativeToolTip": "quartz\\util\\og.tsx",
               "ViewState": "AgIAAIoAAAAAAAAAAAAAAFgAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-11-29T02:55:03.043Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-29T02:55:03.043Z"
             },
             {
               "$type": "Document",
@@ -85,8 +91,7 @@
               "RelativeToolTip": "quartz\\cfg.ts",
               "ViewState": "AgIAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-11-29T02:54:35.834Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-29T02:54:35.834Z"
             },
             {
               "$type": "Document",
@@ -96,18 +101,10 @@
               "RelativeDocumentMoniker": "quartz\\components\\Head.tsx",
               "ToolTip": "D:\\PortableGit\\obsidianQuartz\\quartz\\components\\Head.tsx",
               "RelativeToolTip": "quartz\\components\\Head.tsx",
-              "ViewState": "AgIAAJsAAAAAAAAAAAAgwKkAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAJYAAAAAAAAAAADgv6cAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
               "WhenOpened": "2024-11-29T02:53:50.312Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Document",
@@ -119,8 +116,7 @@
               "RelativeToolTip": "index.d.ts",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-11-29T02:53:42.298Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-29T02:53:42.298Z"
             }
           ]
         }
