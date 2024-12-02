@@ -155,7 +155,16 @@ export default (() => {
       fileData.slug === "404" ? url.toString() : joinSegments(url.toString(), fileData.slug!)
 
     return (
-      <head>
+        <head>
+            <!-- Google tag (gtag.js) -->
+            <script async src="https://www.googletagmanager.com/gtag/js?id=G-NJTGW111V1"></script>
+            <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+
+                gtag('config', 'G-NJTGW111V1');
+            </script>
         <title>{title}</title>
         <meta charSet="utf-8" />
         {cfg.theme.cdnCaching && cfg.theme.fontOrigin === "googleFonts" && (
