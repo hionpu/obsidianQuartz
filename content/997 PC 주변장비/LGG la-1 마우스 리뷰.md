@@ -36,7 +36,8 @@ devboi.pythonanywhere.com](https://devboi.pythonanywhere.com/Mouse_Form)
 
 ## 도착
 
-![[Pasted image 20241202102020.png]]
+![image](https://github.com/user-attachments/assets/eb53fffa-64d7-4893-92b3-83e0d76cc18e)
+
 
 Mad R 에 붙어있던 그립테이프 그대로 떼서 붙여봤습니다. Mad R을 몇주간 사용하면서 느낀점을 점수로 표현하면
 
@@ -50,14 +51,14 @@ Mad R 에 붙어있던 그립테이프 그대로 떼서 붙여봤습니다. Mad 
 
 이 la-1에 나름 기대를 했는데 그 이유가 뭐냐면 위 링크에서 최상단에 있는 la-1을 [eloshapes](https://www.eloshapes.com/mouse/compare?p=vxe-mad-r-major-vs.-lethal-gaming-gear-la-1)에서 찾아보니 Mad R과 거의 유사하면서 길이만 살짝 긴게 제가 딱 원하던거였슴
 
-![[Pasted image 20241202102048.png]]
+![image](https://github.com/user-attachments/assets/7e405176-26b8-4cb3-95e1-d8dd94a2d855)
 
 마우스 세계에서 1mm는 참 크게 느껴집니다. 길이 2mm 차이면 부족한 길이를 채워줄만 하다고 생각했는데 실제로 길이 자체는 딱 적당했어요
 
-![[Pasted image 20241202102043.png]]
+![Mad R vs La-1](https://github.com/user-attachments/assets/3279405d-f5d1-48e9-90e3-31f793092479)
 
 길이는 길어졌지만 전체적으로 살짝 좁아진 너비가 느껴집니다. 그래서 완벽한 그립은 아니지만 Mad R 보다는 낫습니다. 
 
-![[Pasted image 20241202102058.png]]
+![image](https://github.com/user-attachments/assets/b5c0f964-081a-4e86-ab08-e5a69779dc22)
 
 근데 판매자 형님 센서 피트를 떼고 주시면 어덕해요...
