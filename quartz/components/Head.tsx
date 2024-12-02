@@ -157,7 +157,8 @@ export default (() => {
     return (
         <head>
         <title>{title}</title>
-        <meta charSet="utf-8" />
+            <meta charSet="utf-8" />
+            <meta name="google-site-verification" content="T4LyeiA7rJ6xu7JnU9kAVEzUXc5q8X6nIW77o37U7VY" />
         {cfg.theme.cdnCaching && cfg.theme.fontOrigin === "googleFonts" && (
           <>
             <link rel="preconnect" href="https://fonts.googleapis.com" />
