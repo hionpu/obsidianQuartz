@@ -17,7 +17,7 @@ const config: QuartzConfig = {
         tagId: "G-NJTGW111V1"
     },
     locale: "ko-KR",
-        baseUrl: "https://pizzvman.pages.dev/",
+        baseUrl: "pizzvman.pages.dev",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     generateSocialImages: false,
