@@ -1,16 +1,24 @@
 import { FunctionComponent } from 'preact'
-import { Layout } from '../../components/Layout'
-import { Graph } from '../../components/Graph'
-import { BackLinks } from '../../components/BackLinks'
+import { LanguageSwitcher } from './LanguageSwitcher'
 
-const HomePageEN: FunctionComponent = () => {
-  return (
-    <Layout lang="en">
-      <Graph />
-      <BackLinks />
-      {/* 다른 콘텐츠 */}
-    </Layout>
-  )
+interface LayoutProps {
+  children: preact.ComponentChildren
+  lang: string
 }
 
-export default HomePageEN 
+export const Layout: FunctionComponent<LayoutProps> = ({ children, lang }) => {
+  return (
+    <div class="layout">
+      <header>
+        {/* 기존 헤더 내용 */}
+        <LanguageSwitcher currentLang={lang} />
+      </header>
+      <main>
+        {children}
+      </main>
+      <footer>
+        {/* 푸터 내용 */}
+      </footer>
+    </div>
+  )
+} 
