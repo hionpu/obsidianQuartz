@@ -8,19 +8,27 @@ interface LanguageSwitcherProps {
 export const LanguageSwitcher: FunctionComponent<LanguageSwitcherProps> = ({ currentLang }) => {
   const switchLanguage = useCallback(() => {
     const currentPath = window.location.pathname
-    // 루트 URL인 경우
-    if (currentPath === '/') {
-      window.location.href = currentLang === 'ko' ? '/en/' : '/'
-      return
-    }
-    
-    // 이미 /en/이 있는 경우
-    if (currentPath.startsWith('/en/')) {
-      window.location.href = currentPath.replace('/en/', '/')
+    let newPath = ''
+
+    if (currentLang === 'ko') {
+      // 한국어에서 영어로 전환
+      if (currentPath === '/') {
+        newPath = '/en/'
+      } else {
+        newPath = `/en${currentPath}`
+      }
     } else {
-      // 일반 경로인 경우
-      window.location.href = `/en${currentPath}`
+      // 영어에서 한국어로 전환
+      if (currentPath.startsWith('/en/')) {
+        newPath = currentPath.replace('/en', '')
+      } else if (currentPath === '/en') {
+        newPath = '/'
+      } else {
+        newPath = currentPath
+      }
     }
+
+    window.location.href = newPath
   }, [currentLang])
 
   return (
@@ -32,8 +40,8 @@ export const LanguageSwitcher: FunctionComponent<LanguageSwitcherProps> = ({ cur
       >
         <img 
           src={currentLang === 'ko' 
-            ? './static/images/gb-flag.svg' 
-            : './static/images/kr-flag.svg'
+            ? '/static/images/gb-flag.svg' 
+            : '/static/images/kr-flag.svg'
           } 
           alt={currentLang === 'ko' ? 'English' : '한국어'}
           width="24"

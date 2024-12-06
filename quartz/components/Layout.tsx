@@ -1,12 +1,24 @@
+import { FunctionComponent } from 'preact'
 import { LanguageSwitcher } from './LanguageSwitcher'
 
-// Layout 컴포넌트 내부
-return (
-  <div class="layout">
-    <header>
-      // ... existing header content ...
-      <LanguageSwitcher currentLang={props.lang || 'ko'} />
-    </header>
-    // ... rest of layout ...
-  </div>
-) 
+interface LayoutProps {
+  children: preact.ComponentChildren
+  lang: string
+}
+
+export const Layout: FunctionComponent<LayoutProps> = ({ children, lang }) => {
+  return (
+    <div class="layout">
+      <header>
+        {/* 기존 헤더 내용 */}
+        <LanguageSwitcher currentLang={lang} />
+      </header>
+      <main>
+        {children}
+      </main>
+      <footer>
+        {/* 푸터 내용 */}
+      </footer>
+    </div>
+  )
+} 
