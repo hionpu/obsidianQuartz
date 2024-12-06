@@ -1,11 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\docs",
-    "\\docs\\plugins",
-    "\\docs\\tags",
-    "\\quartz\\components"
+    "\\quartz",
+    "\\quartz\\components",
+    "\\quartz\\components\\pages"
   ],
-  "SelectedNode": "\\quartz",
+  "SelectedNode": "\\quartz.layout.ts",
   "PreviewInSolutionExplorer": false
 }

@@ -7,28 +7,16 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:quartz\\components\\Head.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PortableGit\\obsidianQuartz\\quartz.config.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:quartz.config.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PortableGit\\obsidianQuartz\\quartz\\components\\Comments.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:quartz\\components\\Comments.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PortableGit\\obsidianQuartz\\docs\\tags\\component.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:docs\\tags\\component.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PortableGit\\obsidianQuartz\\docs\\tags\\plugin.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:docs\\tags\\plugin.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PortableGit\\obsidianQuartz\\quartz.layout.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:quartz.layout.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PortableGit\\obsidianQuartz\\quartz\\bootstrap-cli.mjs||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:quartz\\bootstrap-cli.mjs||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PortableGit\\obsidianQuartz\\quartz.config.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:quartz.config.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PortableGit\\obsidianQuartz\\quartz\\plugins\\emitters\\contentIndex.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
@@ -78,7 +66,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "Explorer.tsx",
               "DocumentMoniker": "D:\\PortableGit\\obsidianQuartz\\quartz\\components\\Explorer.tsx",
               "RelativeDocumentMoniker": "quartz\\components\\Explorer.tsx",
@@ -90,7 +78,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 8,
               "Title": "ko-KR.ts",
               "DocumentMoniker": "D:\\PortableGit\\obsidianQuartz\\quartz\\i18n\\locales\\ko-KR.ts",
               "RelativeDocumentMoniker": "quartz\\i18n\\locales\\ko-KR.ts",
@@ -102,7 +90,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "quartz.config.ts",
               "DocumentMoniker": "D:\\PortableGit\\obsidianQuartz\\quartz.config.ts",
               "RelativeDocumentMoniker": "quartz.config.ts",
@@ -115,7 +103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "contentIndex.ts",
               "DocumentMoniker": "D:\\PortableGit\\obsidianQuartz\\quartz\\plugins\\emitters\\contentIndex.ts",
               "RelativeDocumentMoniker": "quartz\\plugins\\emitters\\contentIndex.ts",
@@ -127,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 9,
               "Title": "og.tsx",
               "DocumentMoniker": "D:\\PortableGit\\obsidianQuartz\\quartz\\util\\og.tsx",
               "RelativeDocumentMoniker": "quartz\\util\\og.tsx",
@@ -145,14 +133,14 @@
               "RelativeDocumentMoniker": "quartz\\components\\Head.tsx",
               "ToolTip": "D:\\PortableGit\\obsidianQuartz\\quartz\\components\\Head.tsx",
               "RelativeToolTip": "quartz\\components\\Head.tsx",
-              "ViewState": "AgIAAJsAAAAAAAAAAAAiwKEAAABmAAAAAAAAAA==",
+              "ViewState": "AgIAAJsAAAAAAAAAAAAiwKAAAABqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
               "WhenOpened": "2024-11-29T02:53:50.312Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 10,
               "Title": "index.d.ts",
               "DocumentMoniker": "D:\\PortableGit\\obsidianQuartz\\index.d.ts",
               "RelativeDocumentMoniker": "index.d.ts",
@@ -181,50 +169,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Comments.tsx",
-              "DocumentMoniker": "D:\\PortableGit\\obsidianQuartz\\quartz\\components\\Comments.tsx",
-              "RelativeDocumentMoniker": "quartz\\components\\Comments.tsx",
-              "ToolTip": "D:\\PortableGit\\obsidianQuartz\\quartz\\components\\Comments.tsx",
-              "RelativeToolTip": "quartz\\components\\Comments.tsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-12-02T07:03:17.622Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "component.md",
-              "DocumentMoniker": "D:\\PortableGit\\obsidianQuartz\\docs\\tags\\component.md",
-              "RelativeDocumentMoniker": "docs\\tags\\component.md",
-              "ToolTip": "D:\\PortableGit\\obsidianQuartz\\docs\\tags\\component.md",
-              "RelativeToolTip": "docs\\tags\\component.md",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2024-12-02T07:03:08.632Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "plugin.md",
-              "DocumentMoniker": "D:\\PortableGit\\obsidianQuartz\\docs\\tags\\plugin.md",
-              "RelativeDocumentMoniker": "docs\\tags\\plugin.md",
-              "ToolTip": "D:\\PortableGit\\obsidianQuartz\\docs\\tags\\plugin.md",
-              "RelativeToolTip": "docs\\tags\\plugin.md",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2024-12-02T07:03:06.614Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "bootstrap-cli.mjs",
               "DocumentMoniker": "D:\\PortableGit\\obsidianQuartz\\quartz\\bootstrap-cli.mjs",
               "RelativeDocumentMoniker": "quartz\\bootstrap-cli.mjs",
@@ -232,11 +181,12 @@
               "RelativeToolTip": "quartz\\bootstrap-cli.mjs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-12-02T06:49:41.437Z"
+              "WhenOpened": "2024-12-02T06:49:41.437Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "quartz.layout.ts",
               "DocumentMoniker": "D:\\PortableGit\\obsidianQuartz\\quartz.layout.ts",
               "RelativeDocumentMoniker": "quartz.layout.ts",
@@ -249,7 +199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
               "Title": "ExplorerNode.tsx",
               "DocumentMoniker": "D:\\PortableGit\\obsidianQuartz\\quartz\\components\\ExplorerNode.tsx",
               "RelativeDocumentMoniker": "quartz\\components\\ExplorerNode.tsx",
@@ -261,7 +211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 7,
               "Title": "cfg.ts",
               "DocumentMoniker": "D:\\PortableGit\\obsidianQuartz\\quartz\\cfg.ts",
               "RelativeDocumentMoniker": "quartz\\cfg.ts",
