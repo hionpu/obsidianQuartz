@@ -1,10 +1,11 @@
-import { useCallback } from 'react'
+import { useCallback } from 'preact/hooks'
+import { FunctionComponent } from 'preact'
 
 interface LanguageSwitcherProps {
   currentLang: string
 }
 
-export function LanguageSwitcher({ currentLang }: LanguageSwitcherProps) {
+export const LanguageSwitcher: FunctionComponent<LanguageSwitcherProps> = ({ currentLang }) => {
   const switchLanguage = useCallback((lang: string) => {
     const currentPath = window.location.pathname
     const newPath = currentLang === 'ko' 
@@ -14,16 +15,16 @@ export function LanguageSwitcher({ currentLang }: LanguageSwitcherProps) {
   }, [currentLang])
 
   return (
-    <div className="language-switcher">
+    <div class="language-switcher">
       <button 
         onClick={() => switchLanguage(currentLang === 'ko' ? 'en' : 'ko')}
-        className="language-button"
+        class="language-button"
         aria-label={currentLang === 'ko' ? 'Switch to English' : '한국어로 전환'}
       >
         <img 
           src={currentLang === 'ko' 
-            ? '/static/images/gb-flag.svg' 
-            : '/static/images/kr-flag.svg'
+            ? './static/images/gb-flag.svg' 
+            : './static/images/kr-flag.svg'
           } 
           alt={currentLang === 'ko' ? 'English' : '한국어'}
           width="24"

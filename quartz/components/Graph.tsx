@@ -62,7 +62,7 @@ export default ((opts?: GraphOptions) => {
     const localGraph = { ...defaultOptions.localGraph, ...opts?.localGraph }
     const globalGraph = { ...defaultOptions.globalGraph, ...opts?.globalGraph }
     return (
-      <div className="graph">
+      <div class="graph">
         <LanguageSwitcher currentLang={cfg.lang || 'ko'} />
         <div class={classNames(displayClass, "graph")}>
           <h3>{i18n(cfg.locale).components.graph.title}</h3>
