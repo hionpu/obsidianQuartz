@@ -54,22 +54,6 @@ const config: QuartzConfig = {
         },
       },
     },
-    pageLayout: {
-      ["/en/"]: {
-        defaultLayout: "layout",
-        components: {
-          beforeBody: ["Graph", "TagList"],
-          afterBody: ["BackLinks", "TableOfContents"],
-        },
-      },
-      "/": {
-        defaultLayout: "layout",
-        components: {
-          beforeBody: ["Graph", "TagList"],
-          afterBody: ["BackLinks", "TableOfContents"],
-        },
-      },
-    },
   },
   plugins: {
     transformers: [
@@ -107,6 +91,16 @@ const config: QuartzConfig = {
       Plugin.NotFoundPage(),
     ],
   },
+  defaultLanguage: 'ko',
+  languages: ['ko', 'en'],
+  i18n: {
+    ko: {
+      // 한국어 번역
+    },
+    en: {
+      // 영어 번역
+    }
+  }
 }
 
 export default config
