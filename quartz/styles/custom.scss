@@ -1,3 +1,23 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+
+.language-switcher {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 1000;
+}
+
+.language-button {
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: var(--bg);
+  color: var(--text);
+  cursor: pointer;
+  
+  &:hover {
+    background: var(--bg-hover);
+  }
+}
