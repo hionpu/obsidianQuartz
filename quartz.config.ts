@@ -1,4 +1,4 @@
-import { defineConfig } from 'quartz'
+import { defineConfig } from './quartz/bootstrap-cli.mjs'
 
 export default defineConfig({
   // ... 기존 설정 ...
