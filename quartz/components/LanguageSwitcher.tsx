@@ -6,18 +6,27 @@ interface LanguageSwitcherProps {
 }
 
 export const LanguageSwitcher: FunctionComponent<LanguageSwitcherProps> = ({ currentLang }) => {
-  const switchLanguage = useCallback((lang: string) => {
+  const switchLanguage = useCallback(() => {
     const currentPath = window.location.pathname
-    const newPath = currentLang === 'ko' 
-      ? `/en${currentPath}`
-      : currentPath.replace('/en/', '')
-    window.location.href = newPath
+    // 루트 URL인 경우
+    if (currentPath === '/') {
+      window.location.href = currentLang === 'ko' ? '/en/' : '/'
+      return
+    }
+    
+    // 이미 /en/이 있는 경우
+    if (currentPath.startsWith('/en/')) {
+      window.location.href = currentPath.replace('/en/', '/')
+    } else {
+      // 일반 경로인 경우
+      window.location.href = `/en${currentPath}`
+    }
   }, [currentLang])
 
   return (
     <div class="language-switcher">
       <button 
-        onClick={() => switchLanguage(currentLang === 'ko' ? 'en' : 'ko')}
+        onClick={switchLanguage}
         class="language-button"
         aria-label={currentLang === 'ko' ? 'Switch to English' : '한국어로 전환'}
       >

@@ -1,4 +1,9 @@
 ---
-title: 프데달면프로데뷔함의 obsidian publish (english)
+title: Homepage
+tags: 
+categories: 
 lang: en
+enableToc: true
+enableBackLinks: true
+enableGraph: true
 ---
