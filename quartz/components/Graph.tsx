@@ -1,5 +1,4 @@
 import { h } from 'preact'
-import { LanguageSwitcher } from './LanguageSwitcher'
 import style from './styles/graph.scss'
 import { i18n } from '../i18n'
 import { classNames } from '../util/lang'
@@ -65,7 +64,6 @@ export default ((opts?: GraphOptions) => {
     return (
       <div class={classNames(displayClass, "graph")}>
         <h3>{i18n(cfg.locale).components.graph.title}</h3>
-        <LanguageSwitcher />
         <div class="graph-outer">
           <div id="graph-container" data-cfg={JSON.stringify(localGraph)}></div>
           <button id="global-graph-icon" aria-label="Global Graph">

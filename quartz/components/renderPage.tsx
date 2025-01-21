@@ -1,4 +1,5 @@
 import { render } from "preact-render-to-string"
+import { Router } from "wouter-preact" // Router 임포트 추가
 import { QuartzComponent, QuartzComponentProps } from "./types"
 import HeaderConstructor from "./Header"
 import BodyConstructor from "./Body"
@@ -222,6 +223,7 @@ export function renderPage(
     <html lang={lang}>
       <Head {...componentData} />
       <body data-slug={slug}>
+      <Router> {/* Router 추가 */}
         <div id="quartz-root" class="page">
           <Body {...componentData}>
             {LeftComponent}
@@ -249,7 +251,8 @@ export function renderPage(
             {RightComponent}
             <Footer {...componentData} />
           </Body>
-        </div>
+          </div>
+        </Router>
       </body>
       {pageResources.js
         .filter((resource) => resource.loadTime === "afterDOMReady")

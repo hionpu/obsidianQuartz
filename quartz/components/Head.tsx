@@ -8,8 +8,6 @@ import fs from "fs"
 import sharp from "sharp"
 import { ImageOptions, SocialImageOptions, getSatoriFont, defaultImage } from "../util/og"
 import { unescapeHTML } from "../util/escape"
-import { h } from 'preact'
-import { Helmet } from 'react-helmet' // 사용 중인 Helmet 라이브러리에 따라 다름
 
 /**
  * Generates social image (OG/twitter standard) and saves it as `.webp` inside the public folder
@@ -156,19 +154,10 @@ export default (() => {
     const socialUrl =
       fileData.slug === "404" ? url.toString() : joinSegments(url.toString(), fileData.slug!)
 
-    const currentLang = fileData.frontmatter.lang || 'ko'
-    const alternateLang = currentLang === 'ko' ? 'en' : 'ko'
-
-    // 현재 페이지의 URL과 대체 언어 페이지의 URL을 설정
-    const currentURL = `https://${cfg.baseUrl}/${fileData.slug}`
-    const alternateURL = currentLang === 'ko' ? `https://${cfg.baseUrl}/en/${fileData.slug}` : `https://${cfg.baseUrl}/${fileData.slug.replace('/en/', '/')}`
-
     return (
-      <Helmet>
-        <html lang={currentLang} />
+      <head>
         <title>{title}</title>
         <meta charSet="utf-8" />
-        <meta name="google-site-verification" content="T4LyeiA7rJ6xu7JnU9kAVEzUXc5q8X6nIW77o37U7VY" />
         {cfg.theme.cdnCaching && cfg.theme.fontOrigin === "googleFonts" && (
           <>
             <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -192,8 +181,6 @@ export default (() => {
           <>
             <meta property="og:image:width" content={fullOptions.width.toString()} />
             <meta property="og:image:height" content={fullOptions.height.toString()} />
-            <meta property="og:width" content={fullOptions.width.toString()} />
-            <meta property="og:height" content={fullOptions.height.toString()} />
           </>
         )}
         <meta property="og:image:url" content={ogImagePath} />
@@ -213,12 +200,7 @@ export default (() => {
         {js
           .filter((resource) => resource.loadTime === "beforeDOMReady")
           .map((res) => JSResourceToScriptElement(res, true))}
-
-        {/* hreflang 태그 */}
-        <link rel="alternate" hrefLang="ko" href={currentURL} />
-        <link rel="alternate" hrefLang="en" href={alternateURL} />
-        <link rel="alternate" hrefLang="x-default" href={currentURL} />
-      </Helmet>
+      </head>
     )
   }
 
