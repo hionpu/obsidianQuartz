@@ -49,7 +49,7 @@ output.tex = float3(texMin, ?, polyLineLength);
 또는
 output.tex = float3(texMax, ?, polyLineLength);
 ```
-여기서 `?`는 대충 조건에 따라 특정 인트로 들어가는 모양새
+여기서 `?`는 대충 조건에 따라 특정 `int`타입 값이 들어가는 모양새
 
 polyLineLength 부분은 픽셀 쉐이더`PSLine` 에서 `input.tex.xy`처럼 `z`성분을 사용하지 않으므로 상관 없고
 
