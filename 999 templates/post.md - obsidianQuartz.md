@@ -8,4 +8,5 @@ lang: ko
 pin: true
 math: true
 mermaid: true
+permalink:
 ---
