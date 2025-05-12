@@ -12,7 +12,7 @@ lang: ko
 pin: true
 math: true
 mermaid: true
-permalink: backjoon-1311-task-assignment-1-bitmask-dp
+permalink: /backjoon-1311-task-assignment-1-bitmask-dp
 ---
 ## 핵심 원리
 
