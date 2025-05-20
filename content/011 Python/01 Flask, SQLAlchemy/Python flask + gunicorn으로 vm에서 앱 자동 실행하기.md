@@ -9,6 +9,8 @@ pin: true
 math: true
 mermaid: true
 ---
+
+[[SQLAlchemy로 PostgreSQL 다루는 방법]]
 ## 1. Flask 앱 준비 및 업로드
 
 로컬에서 Flask 애플리케이션을 개발합니다. 이후, 해당 프로젝트 파일들을 VM(가상머신)으로 업로드합니다. 일반적으로 `scp`나 Git, FTP 등 다양한 방법을 사용할 수 있습니다. 저는 WinSCP를 사용했어요.
