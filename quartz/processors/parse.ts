@@ -97,6 +97,14 @@ export function createFileParser(ctx: BuildCtx, fps: FilePath[]) {
 
         const ast = processor.parse(file)
         const newAst = await processor.run(ast, file)
+        
+        // Set slug to permalink if it exists in frontmatter
+        if (file.data.frontmatter?.permalink) {
+          const permalink = file.data.frontmatter.permalink;
+          // Remove leading slash if present
+          file.data.slug = permalink.startsWith('/') ? permalink.substring(1) as any : permalink as any;
+        }
+        
         res.push([newAst, file])
 
         if (argv.verbose) {

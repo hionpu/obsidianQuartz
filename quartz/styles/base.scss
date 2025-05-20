@@ -193,14 +193,16 @@ a {
       grid-area: grid-sidebar-left;
       flex-direction: column;
       @media all and ($mobile) {
-        gap: 0;
-        align-items: center;
-        position: initial;
+        gap: 0.5rem;
+        position: relative;
         display: flex;
-        height: unset;
-        flex-direction: row;
-        padding: 0;
-        padding-top: 2rem;
+        height: auto;
+        min-height: 300px;
+        max-height: 80vh;
+        overflow-y: auto;
+        flex-direction: column;
+        padding: 1rem;
+        width: 100%;
       }
     }
 
