@@ -2,14 +2,14 @@
 title: SQLAlchemy로 PostgreSQL 다루는 방법
 tags:
   - python
-categories: 
+categories: null
 createdAt: 2025-05-20 10:10
 lastmod: 2025-05-20 10:10
 lang: ko
 pin: true
 math: true
 mermaid: true
-permalink:
+permalink: /python-sqlalchemy-postgresql-guide
 ---
 > [[Python flask + gunicorn으로 vm에서 앱 자동 실행하기]] Flask로 백엔드를 구성한 후에 gunicorn에게 맡기는 방법
 

@@ -8,6 +8,7 @@ tags:
   - performance
 references: []
 created: 2025-05-29
+permalink: /database-index-btree-structure
 ---
 
 # 데이터베이스 인덱스와 B-Tree 구조

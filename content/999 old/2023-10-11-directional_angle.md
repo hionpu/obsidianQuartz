@@ -11,7 +11,7 @@ categories:
 createdAt: 2023-10-11 10:18
 lastmod: 2023-12-12 10:18
 lang: ko
-permalink: 
+permalink: /rhino-directional-angle-arc-drawing
 pin: true
 math: true
 mermaid: true

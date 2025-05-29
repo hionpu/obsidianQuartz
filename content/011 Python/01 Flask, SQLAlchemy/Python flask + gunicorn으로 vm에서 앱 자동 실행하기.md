@@ -8,6 +8,7 @@ lang: ko
 pin: true
 math: true
 mermaid: true
+permalink: /python-flask-gunicorn-vm-auto-deployment
 ---
 
 [[SQLAlchemy로 PostgreSQL 다루는 방법]]
@@ -37,8 +38,6 @@ python3 -m venv venv
 source venv/bin/activate
 ```  
 4. 활성화된 가상환경 내에서 Flask와 필요한 기타 라이브러리, gunicorn 등을 설치합니다:
-    
-   
 ```bash
 pip install flask gunicorn
 ```
@@ -57,7 +56,6 @@ pip install flask gunicorn
 ### 실행 방법
 
 가상환경이 활성화된 상태에서 다음과 같이 gunicorn을 실행할 수 있습니다:
-
 
 ```bash
 gunicorn -w 4 myapp:app
@@ -81,20 +79,34 @@ gunicorn -w 4 myapp:app
 
 2. 파일 내용은 아래와 같이 작성할 수 있습니다:
 ```ini
-[Unit] Description=My Flask Application After=network.target  [Service] User=your_username Group=www-data WorkingDirectory=/path/to/your/project ExecStart=/path/to/venv/bin/gunicorn -w 4 myapp:app Restart=always  [Install] WantedBy=multi-user.target
+[Unit]
+Description=My Flask Application
+After=network.target
+
+[Service]
+User=your_username
+Group=www-data
+WorkingDirectory=/path/to/your/project
+ExecStart=/path/to/venv/bin/gunicorn -w 4 myapp:app
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
 ```
 - `User`와 `Group`은 애플리케이션을 실행할 사용자와 그룹을 지정합니다.
 - `WorkingDirectory`는 Flask 앱이 위치한 디렉토리입니다.
 - `ExecStart`에서 가상환경 내 gunicorn의 절대 경로를 사용함으로써, 가상환경을 별도로 활성화하지 않고도 올바른 환경에서 애플리케이션이 실행됩니다.
-3. 유닛 파일 작성 후, systemd 데몬을 재로드합니다:
 
+3. 유닛 파일 작성 후, systemd 데몬을 재로드합니다:
 ```bash
 sudo systemctl daemon-reload
 ```
+
 4. 서비스 시작 및 부팅 시 자동 실행 설정:
 ```bash
-`sudo systemctl start myapp.service sudo systemctl enable myapp.service`
- ```   
+sudo systemctl start myapp.service
+sudo systemctl enable myapp.service
+```
 
 ---
 
@@ -104,4 +116,3 @@ sudo systemctl daemon-reload
 - **가상환경 구축:** `venv`를 사용해 독립적인 파이썬 환경을 생성하고, 필요한 패키지를 설치합니다.
 - **gunicorn 설치:** 가상환경 내에서 gunicorn을 설치하여, Flask 앱을 WSGI 서버를 통해 실행합니다.
 - **systemd 설정:** systemd 유닛 파일을 통해 VM 부팅 시 자동으로 gunicorn이 실행되도록 설정합니다. 이때, 유닛 파일에서는 가상환경 내의 gunicorn 경로를 직접 지정합니다.
-

@@ -3,11 +3,11 @@ title: LGG la-1 마우스 리뷰
 tags:
   - "#마우스"
   - "#PC주변기기"
-categories: 
+categories: null
 createdAt: 2024-12-02 10:15
 lastmod: 2024-12-02 10:15
 lang: ko
-permalink: LGG-la1-mouse-review
+permalink: /lgg-la1-mouse-review
 pin: true
 math: true
 mermaid: true

@@ -10,6 +10,7 @@ tags:
 references:
   - "[[데이터베이스 인덱스와 B-Tree 구조]]"
 created: 2025-05-29
+permalink: /jwt-vs-session-authentication-comparison
 ---
 
 # JWT와 세션 인증 방식 비교
