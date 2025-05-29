@@ -11,7 +11,7 @@ categories:
 createdAt: 2023-10-11 10:18
 lastmod: 2023-12-12 10:18
 lang: en
-permalink: /posts/directional_angle
+permalink: 
 pin: true
 math: true
 mermaid: true

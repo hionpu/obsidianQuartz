@@ -21,4 +21,13 @@
       }
     }
   }
+
+  // Special styling when placed in center area (beforeBody)
+  .center & {
+    margin: 1.5rem 0;
+    padding: 1rem;
+    background-color: var(--light);
+    border-radius: 5px;
+    border: 1px solid var(--lightgray);
+  }
 }

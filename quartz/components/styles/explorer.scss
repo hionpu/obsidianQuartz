@@ -6,6 +6,7 @@
   overflow-y: hidden;
   width: 100%;
   min-width: 250px;
+  height: 100%;
   &.desktop-only {
     @media all and not ($mobile) {
       display: flex;
@@ -70,7 +71,9 @@ button#explorer {
   list-style: none;
   overflow: hidden;
   overflow-y: auto;
-  max-height: 100%;
+  max-height: calc(100vh - 120px);
+  height: 100%;
+  flex: 1;
   transition:
     max-height 0.35s ease,
     visibility 0s linear 0s;

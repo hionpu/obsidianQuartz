@@ -10,7 +10,7 @@ tags:
 categories:
   - "[GitHub, jekyll]"
 lang: en
-permalink: /posts/github_blog_1
+permalink: 
 pin: true
 math: true
 mermaid: true

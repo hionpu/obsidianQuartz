@@ -1,5 +1,5 @@
 ---
-title: "Setting Up a GitHub Blog (4) - Supporting Multiple Languages with Polyglot"
+title: Setting Up a GitHub Blog (4) - Supporting Multiple Languages with Polyglot
 tags:
   - blog
   - chirpy
@@ -10,7 +10,7 @@ categories:
 createdAt: 2023-12-14 13:36
 lastmod: 2023-12-14 13:36
 lang: en
-permalink: /posts/github_blog_4
+permalink: 
 pin: true
 math: true
 mermaid: true

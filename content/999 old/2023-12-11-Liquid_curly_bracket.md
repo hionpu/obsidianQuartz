@@ -10,7 +10,7 @@ categories:
 createdAt: 2023-12-11 17:12
 lastmod: 2023-12-11 17:12
 lang: ko
-permalink: /posts/liquid_curly_bracket
+permalink: 
 pin: true
 math: true
 mermaid: true

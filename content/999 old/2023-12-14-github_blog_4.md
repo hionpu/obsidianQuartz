@@ -10,7 +10,7 @@ categories:
 createdAt: 2023-12-14 13:36
 lastmod: 2023-12-14 13:36
 lang: ko
-permalink: /posts/github_blog_4
+permalink: 
 pin: true
 math: true
 mermaid: true
