@@ -52,11 +52,19 @@ function sluggify(s: string): string {
     .split("/")
     .map((segment) =>
       segment
+        // Replace spaces with hyphens
         .replace(/\s/g, "-")
+        // Replace problematic URL characters
         .replace(/&/g, "-and-")
         .replace(/%/g, "-percent")
         .replace(/\?/g, "")
-        .replace(/#/g, ""),
+        .replace(/#/g, "")
+        // Remove other problematic characters but keep Unicode letters and numbers
+        .replace(/[<>:"/\\|*]/g, "")
+        // Clean up multiple consecutive hyphens
+        .replace(/-+/g, "-")
+        // Remove leading/trailing hyphens
+        .replace(/^-|-$/g, ""),
     )
     .join("/") // always use / as sep
     .replace(/\/$/, "")
@@ -255,7 +263,9 @@ function trimSuffix(s: string, suffix: string): string {
 }
 
 function containsForbiddenCharacters(s: string): boolean {
-  return s.includes(" ") || s.includes("#") || s.includes("?") || s.includes("&")
+  // Only block characters that would be truly problematic in URLs
+  // and that our sluggify function doesn't handle properly
+  return s.includes("<") || s.includes(">") || s.includes(":") || s.includes("\"") || s.includes("\\") || s.includes("|") || s.includes("*")
 }
 
 function _hasFileExtension(s: string): boolean {
