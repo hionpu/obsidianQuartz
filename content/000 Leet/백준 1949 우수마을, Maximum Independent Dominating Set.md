@@ -2,14 +2,14 @@
 title: 백준 1949 우수마을, Maximum Independent Dominating Set
 tags:
   - "#코딩테스트"
-categories: 
+categories: null
 createdAt: 2025-05-07 15:13
 lastmod: 2025-05-07 15:13
 lang: ko
 pin: true
 math: true
 mermaid: true
-permalink: backjoon-1949-good-village-maximum-independent-dominating-set
+permalink: baekjoon-1949-good-village-maximum-independent-dominating-set
 ---
 백준 1949번 우수 마을 문제는 그래프 이론에서 "Maximum Independent Dominating Set" 문제의 변형입니다. 독립 집합(Independent Set)은 그래프에서 서로 인접하지 않는 정점들의 집합이고, 지배 집합(Dominating Set)은 모든 그래프의 정점이 집합에 포함되거나 집합의 원소와 인접해 있는 집합을 말합니다.
 

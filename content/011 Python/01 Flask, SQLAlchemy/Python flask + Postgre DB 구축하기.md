@@ -11,4 +11,5 @@ lang: ko
 pin: true
 math: true
 mermaid: true
+permalink: python-flask-postgresql-database-setup
 ---

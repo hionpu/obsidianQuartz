@@ -3,14 +3,14 @@ title: __builtin_popcount() 들여다보기
 tags:
   - 알고리즘
   - "#bitmask"
-categories: 
+categories: null
 createdAt: 2025-05-13 15:28
 lastmod: 2025-05-13 15:28
 lang: ko
 pin: true
 math: true
 mermaid: true
-permalink:
+permalink: builtin-popcount-deep-dive
 ---
 
 ## 1. 알고리즘의 목적

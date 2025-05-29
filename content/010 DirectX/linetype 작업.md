@@ -1,5 +1,5 @@
 ---
-title: 
+title: linetype 작업
 tags: 
 categories: 
 createdAt: 2024-12-18 15:45
@@ -8,6 +8,7 @@ lang: ko
 pin: true
 math: true
 mermaid: true
+permalink: directx-linetype-work
 ---
 rastertek.com에서 dx11 튜토리얼 공부 => hlsl 코드 이해 
 
@@ -81,4 +82,3 @@ output.offset = input.offset;
 성공
 
 CommonBuffer는 Material에 따라 정해지는것으로 보이는데  line의 경우 Pointline 인듯
-

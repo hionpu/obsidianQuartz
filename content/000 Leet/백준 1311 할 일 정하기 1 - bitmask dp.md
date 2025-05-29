@@ -5,14 +5,14 @@ tags:
   - 코딩테스트
   - "#dp"
   - "#bitmask"
-categories: 
+categories: null
 createdAt: 2025-05-12 17:43
 lastmod: 2025-05-12 17:43
 lang: ko
 pin: true
 math: true
 mermaid: true
-permalink: /backjoon-1311-task-assignment-1-bitmask-dp
+permalink: baekjoon-1311-task-assignment-bitmask-dp
 ---
 ## 핵심 원리
 

@@ -39,7 +39,16 @@ export default ((userOpts?: Partial<Options>) => {
     }
 
     const opts = { ...defaultOptions(cfg), ...userOpts }
-    const pages = allFiles.filter(opts.filter).sort(opts.sort)
+    
+    // Always ensure index page is excluded, even if user provides custom filter
+    const combinedFilter = (f: QuartzPluginData) => {
+      // First apply the index exclusion
+      if (f.slug === "index") return false
+      // Then apply user filter if provided
+      return opts.filter(f)
+    }
+    
+    const pages = allFiles.filter(combinedFilter).sort(opts.sort)
     const remaining = Math.max(0, pages.length - opts.limit)
     
     return (
@@ -49,6 +58,7 @@ export default ((userOpts?: Partial<Options>) => {
           {pages.slice(0, opts.limit).map((page) => {
             const title = page.frontmatter?.title ?? i18n(cfg.locale).propertyDefaults.title
             const tags = page.frontmatter?.tags ?? []
+            const createdDate = page.dates?.created
 
             return (
               <li class="recent-li">
@@ -60,9 +70,9 @@ export default ((userOpts?: Partial<Options>) => {
                       </a>
                     </h3>
                   </div>
-                  {page.dates && (
+                  {createdDate && (
                     <p class="meta">
-                      <Date date={getDate(cfg, page)!} locale={cfg.locale} />
+                      <Date date={createdDate} locale={cfg.locale} />
                     </p>
                   )}
                   {opts.showTags && (

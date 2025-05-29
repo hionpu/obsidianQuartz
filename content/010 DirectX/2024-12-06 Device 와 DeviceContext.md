@@ -8,6 +8,7 @@ lang: ko
 pin: true
 math: true
 mermaid: true
+permalink: directx-device-devicecontext
 ---
 현재 사용하는 CAD 그래픽 엔진이 라인타입의 shape를 제대로 표현하지 못하는 문제가 있었다.
 

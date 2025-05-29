@@ -11,6 +11,7 @@ lang: ko
 pin: true
 math: true
 mermaid: true
+permalink: wpf-writeablebitmap-performance-optimization-ui-thread-blocking
 ---
 WPF 애플리케이션에서 이미지 처리는 UI 반응성에 큰 영향을 미칠 수 있습니다. 특히 고해상도 이미지를 로드하거나 처리할 때 발생하는 UI 스레드 블로킹은 사용자 경험을 저하시키는 주요 원인입니다. 현재 개발중인 WPF 프로젝트에서도 `ListView`에서 항목을 클릭하면 8K 이미지를 서버에서 받고 화면에 표시하고 있는데 이 때 스터터링Stuttering이 항상 발생했습니다. 이것을 해결하기 위해`WriteableBitmap`을 사용해보았습니다.
 

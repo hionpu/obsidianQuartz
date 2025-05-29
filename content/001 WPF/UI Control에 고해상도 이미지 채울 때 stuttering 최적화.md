@@ -1,5 +1,5 @@
 ---
-title: 
+title: UI Control에 고해상도 이미지 채울 때 stuttering 최적화
 tags: 
 categories: 
 createdAt: "2025-04-25 10:27"
@@ -8,6 +8,7 @@ lang: ko
 pin: true
 math: true
 mermaid: true
+permalink: wpf-high-resolution-image-stuttering-optimization
 ---
 
 ### 기존

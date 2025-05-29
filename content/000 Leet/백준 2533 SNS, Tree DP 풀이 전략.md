@@ -1,14 +1,14 @@
 ---
 title: 백준 2533 SNS, Tree DP 풀이 전략
-tags: 
-categories: 
+tags: null
+categories: null
 createdAt: 2025-04-30 17:50
 lastmod: 2025-04-30 17:50
 lang: ko
 pin: true
 math: true
 mermaid: true
-permalink: backjoon-2533-SNS-Tree-DP-solving-strategy
+permalink: baekjoon-2533-sns-tree-dp-solving-strategy
 ---
 ### 문제
 https://www.acmicpc.net/problem/2533

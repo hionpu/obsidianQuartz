@@ -2,14 +2,14 @@
 title: Visual Studio랑 백준 둘 다 통하는 popcount()
 tags:
   - "#알고리즘"
-categories: 
+categories: null
 createdAt: 2025-05-13 17:41
 lastmod: 2025-05-13 17:41
 lang: ko
 pin: true
 math: true
 mermaid: true
-permalink:
+permalink: visual-studio-baekjoon-compatible-popcount
 ---
 [[__builtin_popcount() 들여다보기]]
 

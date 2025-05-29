@@ -10,6 +10,7 @@ lang: ko
 pin: true
 math: true
 mermaid: true
+permalink: csharp-using-memorystream-utilization
 ---
 ## using
 

@@ -21,7 +21,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ArticleTitle(),
     Component.ContentMeta(),
     Component.TagList(),
-    Component.RecentNotes({ limit: 5, title: "Recent Posts" }),
+    Component.IndexRecentNotes({ limit: 5, title: "Recent Posts" }),
   ],
   left: [
     Component.PageTitle(),
@@ -44,7 +44,7 @@ export const defaultListPageLayout: PageLayout = {
     Component.Breadcrumbs(), 
     Component.ArticleTitle(), 
     Component.ContentMeta(),
-    Component.RecentNotes({ limit: 5, title: "Recent Posts" }),
+    Component.IndexRecentNotes({ limit: 5, title: "Recent Posts" }),
   ],
   left: [
     Component.PageTitle(),

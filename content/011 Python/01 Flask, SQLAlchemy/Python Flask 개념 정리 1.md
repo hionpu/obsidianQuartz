@@ -20,6 +20,7 @@ related:
   - "[[Python flask + Postgre DB 구축하기]]"
   - "[[SQLAlchemy로 PostgreSQL 다루는 방법]]"
   - "[[Python flask + gunicorn으로 vm에서 앱 자동 실행하기]]"
+permalink: python-flask-concepts-basics-1
 ---
 
 # Python Flask 개념 정리 1
