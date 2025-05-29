@@ -7,7 +7,7 @@ categories:
 createdAt: 2024-12-02 10:15
 lastmod: 2024-12-02 10:15
 lang: ko
-permalink: /posts/
+permalink: LGG-la1-mouse-review
 pin: true
 math: true
 mermaid: true
