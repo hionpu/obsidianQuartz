@@ -31,6 +31,7 @@ export const defaultContentPageLayout: PageLayout = {
   ],
   right: [
     Component.LanguageSwitcher(),
+    Component.IndexRecentNotes(),
     Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
