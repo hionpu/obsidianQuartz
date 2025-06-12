@@ -365,6 +365,11 @@ export async function handleBuild(argv) {
               source: "**/*.avif",
               headers: [{ key: "Content-Type", value: "image/avif" }],
             },
+            // set correct Content-Type for XML files (sitemap.xml, RSS feeds, etc.)
+            {
+              source: "**/*.xml",
+              headers: [{ key: "Content-Type", value: "application/xml" }],
+            },
           ],
         })
         const status = res.statusCode

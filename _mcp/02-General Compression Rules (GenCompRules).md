@@ -1,0 +1,13 @@
+---
+tags:
+  - agent/all
+  - system/config
+  - doc/guide
+  - priority/critical
+  - status/complete
+references:
+  - "[[01-Project-Overview]]"
+  - "[[03-Human-AI Parallel Documentation System (HAPDS)]]"
+---
+
+Purpose:Transform_verbose_MD_proj_doc→ultra_comp_mach_read_fmt;Pres_all_crit_sem_info_AI_ctx_consume|Scope:All_proj_MD_AI_ctx;Orig_human_read_ver_maint_sep|CoreCompRules:1.KVStruct:Key:Val(concise_attr_val;Use_proj_abbrev_avail)Ex:ProjName:WebAppDev 2.Grp_Nest:GrpLbl(Itm1,Itm2)[SubGrpLbl:Val];Use()[]_nest_clarity_spare;Prio_flat_struct>deep_nest 3.Abbrev:Proj_wide_consist_shortform(Cmn:Dev,Impl,Mgmt,Spec,Arch;Tech:JS,API,DB;Sec:Req,Doc,Test;Role:PM,Dev,QA);Ref_proj_gloss_consist;Create&maint_abbrev_std_all_doc 4.SymRep:Std_sym_logic&rel(→:flow/depend/leads,>:priority/gt,/:OR/alt,==:equiv,!=:neg/not,?=:query/TBD/uncertain) 5.Hier_Delim:|:Sep_maj_sec/top_KV_sets;:Sep_subsec/complex_KV;,:Sep_itm_list/multi_val/simple_subattr 6.MD_Conv:Head(H1-H6)→Inline_lbl/prefix(H1:,Sec:,SubSec:);List(UL/OL)→Comma/pipe_sep(Ex:-item1→item1,item2);Code→Inline_short(Code(lang:"js",src:"func()"))/Ref_long(CodeRef:DocID/SecID);Tbl→Flat_row_KV(Tbl:Row(Col1:Val,Col2:Val))/Ref_complex(TblRef:DocID/SecID);Link([txt](url)→Txt[URL];Internal:[[DocID/Anchor]]→InternalRef:[[DocID/Anchor]]);Emph→Rem_unless_sem_crit;Use_tag_important(!IMPORTANT_Flag) 7.Frontmatter:YAML→CRIT:MUST_maintain_proper_YAML_fmt_with_---_delimiters;Keep_tags_proper_YAML_array_fmt;Maintain_ref_proper_wikilinks;Only_compress_main_cont_after_closing_---_delim;Ex(---\ntags:\n  - agent/design\n  - system/inventory\nreferences:\n  - "[[Project-Overview]]"\n---\n[compressed_content_here]) 8.Whitespace_Fmt:Elim_non_sem_whitespace(NL,indent,extra_space);Rem_MD_style_markup_no_meaning;Focus_cont_struct&rel 9.Info_Integ:CRIT_RULE:Retain_ALL_sem_cont&rel;Sacrifice_present&redund_density;No_info_loss_alter_meaning/understand;Pres_all_data_pts,connect,logic_struct 10.Global_Consist:Apply_rules&abbrev_uniform_ALL_comp_doc;AI_parse_predict&cross_doc_understand;Maint_consist_term&struct_pattern 11.Struct_Flat:Min_nest_depth_maint_parse;Pref_broad_flat_struct_delim;Balance_comp_logic_org 12.Ctx_Adapt:Core_rules_univ;Slight_adapt_spec_doc_type(GDD,TechSpec,MeetNotes,ReqDoc) 13.Iter_Refine:Rules_refine_pract_app;Comp_output=ongoing_best_pract_ex;Cont_improve_AI_parse_eff&human_review|Impl_Guide:Before(Review_doc_proj_abbrev;ID_key_rel&depend;Note_crit_info_preserve);During(Apply_rules_sys_top_bottom;Maint_logic_flow&rel;Verify_no_sem_info_lost);After(Valid_comp_ver_maint_orig_meaning;Test_AI_parse_possible;Upd_proj_abbrev_gloss_new_terms)|QA:Reg_comp_orig&comp_ver;Verify_comp_fmt_support_AI_use_case;Maint_comp_consist_proj_doc
