@@ -1,14 +1,18 @@
 import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
-import style from "./styles/LanguageSwitcher.css"
+import style from "./styles/LanguageSwitcher.scss"
 
 export default (() => {
-  function LanguageSwitcher(_props: QuartzComponentProps) {
+  function LanguageSwitcher(props: QuartzComponentProps) {
+    const { fileData, cfg } = props;
+    const lang = fileData.frontmatter?.lang;
+    const defaultLang = cfg.locale?.split('-')[0] || 'en';
+    
     return (
       <button
         class="language-switcher"
         aria-label="언어 변경"
       >
-        <span class="lang-text">KR</span>
+        <span class="lang-text">{lang === 'ko' ? 'KR' : 'EN'}</span>
       </button>
     )
   }
@@ -22,26 +26,43 @@ export default (() => {
       if (!langBtn || !langText) return
 
       const currentPath = window.location.pathname
+      const isKorean = currentPath.startsWith('/ko/')
       const isEnglish = currentPath.startsWith('/en/')
-      langText.textContent = isEnglish ? 'EN' : 'KR'
+      
+      // Update button text based on current language
+      if (isKorean) {
+        langText.textContent = 'KR'
+      } else if (isEnglish) {
+        langText.textContent = 'EN'
+      } else {
+        // Default language (likely Korean based on your setup)
+        langText.textContent = 'KR'
+      }
 
       const switchLanguage = async () => {
         const currentPath = window.location.pathname
+        let newPath = '';
         
-        if (currentPath.startsWith('/en/')) {
-          const newPath = currentPath.replace('/en/', '/')
-          window.location.href = newPath + window.location.search
+        if (currentPath.startsWith('/ko/')) {
+          // Switch from Korean to English
+          newPath = currentPath.replace('/ko/', '/en/')
+        } else if (currentPath.startsWith('/en/')) {
+          // Switch from English to Korean (default)
+          newPath = currentPath.replace('/en/', '/')
         } else {
-          // 영어 버전 페이지 존재 여부 확인
-          const enPath = '/en' + currentPath
-          try {
-            const response = await fetch(enPath)
-            if (response.ok) {
-              window.location.href = enPath + window.location.search
-            }
-          } catch (error) {
-            console.log('영어 버전 페이지가 존재하지 않습니다.')
+          // Current page is default language (Korean), switch to English
+          newPath = '/en' + currentPath
+        }
+        
+        try {
+          const response = await fetch(newPath)
+          if (response.ok) {
+            window.location.href = newPath + window.location.search
+          } else {
+            console.log('해당 언어 버전의 페이지가 존재하지 않습니다.')
           }
+        } catch (error) {
+          console.log('해당 언어 버전의 페이지가 존재하지 않습니다.')
         }
       }
 

@@ -98,6 +98,10 @@ export function createFileParser(ctx: BuildCtx, fps: FilePath[]) {
         const ast = processor.parse(file)
         const newAst = await processor.run(ast, file)
         
+        // Handle language-based routing and permalinks
+        const lang = file.data.frontmatter?.lang;
+        const defaultLang = cfg.configuration.locale?.split('-')[0] || 'en';
+        
         // Set slug to permalink if it exists in frontmatter
         if (file.data.frontmatter?.permalink) {
           const permalink = file.data.frontmatter.permalink;
@@ -122,6 +126,13 @@ export function createFileParser(ctx: BuildCtx, fps: FilePath[]) {
               file.data.slug = cleanPermalink as any;
             }
           }
+        }
+        
+        // Add language prefix to slug if lang is specified and different from default
+        if (lang && lang !== defaultLang) {
+          // Add language prefix to the slug
+          const currentSlug = file.data.slug as string;
+          file.data.slug = `${lang}/${currentSlug}` as any;
         }
         
         res.push([newAst, file])
