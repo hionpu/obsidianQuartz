@@ -30,14 +30,14 @@ return sum(tree, node*2, start, mid, left, right) +
        sum(tree, node*2+1, mid+1, end, left, right);
 ```
 
-## Insight 2: Construction Establishes the Contract
+## Insight 2: Construction Works Bottom-Up from Leaves
 
-The indexing pattern from Insight 1 doesn't magically exist—it's **created during initialization**. The build phase explicitly assigns each node its segment responsibility:
+The indexing pattern from Insight 1 doesn't magically exist—it's **created during initialization**. But here's the key: the `init` function works by **recursively finding leaf nodes first, then building upward**.
 
 ```cpp
 long long init(vector<long long> &arr, vector<long long> &tree, 
                int node, int start, int end) {
-    if (start == end)
+    if (start == end)  // Base case: reached a leaf node
         return tree[node] = arr[start];
 
     int mid = (start + end) / 2;
@@ -46,12 +46,15 @@ long long init(vector<long long> &arr, vector<long long> &tree,
 }
 ```
 
-This is a beautiful example of how **construction phase establishes invariants** that the **usage phase relies upon**. Query functions don't need to figure out what segments the children represent—they already know because that's exactly how the tree was built.
+The recursion **dives down to the leaves** (`start == end`) where it directly copies array values, then **bubbles up** by combining child values to fill parent nodes. This bottom-up construction ensures that when we compute `tree[node]`, both children already have their correct values.
 
-The segment tree works because:
+The execution flow is:
 
-1. **Build time**: Explicitly assign each node its segment responsibility
-2. **Query time**: Trust that each node knows its job based on the established pattern
+1. **Dive down**: Recursively split segments until reaching individual array elements
+2. **Fill leaves**: Set `tree[node] = arr[start]` for leaf nodes
+3. **Bubble up**: Combine children values to fill internal nodes
+
+This is a beautiful example of how **construction phase establishes invariants** that the **usage phase relies upon**. Query functions don't need to figure out what segments the children represent—they already know because that's exactly how the tree was built from the ground up.
 
 ## Insight 3: Selective Aggregation for Efficiency
 
@@ -81,6 +84,6 @@ long long sum(vector<long long> &tree, int node, int start, int end,
 
 ## Conclusion
 
-These three insights reveal that segment trees are more than just a clever coding trick—they're a systematic approach to hierarchical problem decomposition. The binary indexing creates a predictable structure, the initialization establishes clear responsibilities, and the query logic maximizes efficiency by aggregating at the highest possible level.
+These insights reveal that segment trees are more than just a clever coding trick—they're a systematic approach to hierarchical problem decomposition. The binary indexing creates a predictable structure, the bottom-up initialization builds the tree from leaves to root, and the query logic maximizes efficiency by aggregating at the highest possible level.
 
 Understanding these principles makes segment trees feel less like magic and more like elegant engineering. Whether you're implementing range sum queries, range minimum queries, or more complex operations, these fundamental concepts remain the same.
