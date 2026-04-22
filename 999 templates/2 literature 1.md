@@ -5,8 +5,8 @@ createdAt: "{{date}} {{time}}"
 tags: 
 title:
 ---
-| Type | #Literature|
-| --- | --- |
+| Type | #Literature |
+| ---- | ----------- |
 ***
 ## § Keywords
 
