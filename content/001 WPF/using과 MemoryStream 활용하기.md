@@ -1,4 +1,5 @@
----
+﻿---
+type: reference
 title: using과 MemoryStream 활용하기
 tags:
   - "#WPF"

@@ -1,4 +1,5 @@
----
+﻿---
+type: reference
 title: 백준 2533 SNS, Tree DP 풀이 전략
 tags: null
 categories: null

@@ -1,4 +1,5 @@
----
+﻿---
+type: reference
 title: YouTube 한 채널에서 16:9, 9:16 동시 라이브 스트리밍
 tags:
   - "#YouTube"

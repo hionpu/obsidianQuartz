@@ -1,4 +1,5 @@
----
+﻿---
+type: reference
 title: MCP Tools API 추가 및 수정하기 frontmatter 오류 수정
 tags:
   - MCP

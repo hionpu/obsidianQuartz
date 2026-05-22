@@ -1,0 +1,20 @@
+{
+  "id": "conv-1773296932612-dszou26nw",
+  "title": "Add tags and backlinks to YouTube video idea",
+  "titleGenerationStatus": "success",
+  "createdAt": 1773296932612,
+  "updatedAt": 1776840797592,
+  "lastResponseAt": 1776840780438,
+  "sessionId": "e303a485-4546-4ea0-bf74-8b7d7b36f83b",
+  "sdkSessionId": "e303a485-4546-4ea0-bf74-8b7d7b36f83b",
+  "currentNote": "content/018-YouTube/004_idea/p2020 적응기.md",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 1,
+    "cacheCreationInputTokens": 1192,
+    "cacheReadInputTokens": 30741,
+    "contextWindow": 200000,
+    "contextTokens": 31934,
+    "percentage": 16
+  }
+}

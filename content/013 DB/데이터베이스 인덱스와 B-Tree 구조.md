@@ -1,4 +1,5 @@
----
+﻿---
+type: reference
 title: 데이터베이스 인덱스와 B-Tree 구조
 tags:
   - database

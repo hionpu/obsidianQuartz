@@ -1,3 +1,8 @@
+﻿---
+type: reference
+created: 2026-05-15
+---
+
 # AI와 TDD+BDD 하기 – Unity 게임개발 전용 가이드 (V1)
 
 > 이 문서는 [[AI와 TDD+BDD 하기 - Low Tech Dept V4]] 의 Unity(C#) 전용 특화 버전이다.

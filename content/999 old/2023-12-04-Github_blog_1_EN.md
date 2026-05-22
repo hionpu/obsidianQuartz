@@ -1,4 +1,5 @@
----
+﻿---
+type: reference
 title: Setting Up a GitHub Blog (1) - Creating a Repository and Checking the Test Page
 date: 2023-12-04 15:22
 lastmod: 2023-12-07 15:56

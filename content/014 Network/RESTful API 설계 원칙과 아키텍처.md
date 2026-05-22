@@ -1,4 +1,5 @@
----
+﻿---
+type: reference
 title: RESTful API 설계 원칙과 아키텍처
 tags:
   - rest

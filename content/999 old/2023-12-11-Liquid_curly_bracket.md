@@ -1,4 +1,5 @@
----
+﻿---
+type: reference
 title: Liquid curly bracket 그대로 표시하기
 tags:
   - "#html"

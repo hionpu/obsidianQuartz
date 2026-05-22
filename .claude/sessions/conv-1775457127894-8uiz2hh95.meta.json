@@ -1,0 +1,19 @@
+{
+  "id": "conv-1775457127894-8uiz2hh95",
+  "title": "Develop QuietPizza long-form strategy",
+  "titleGenerationStatus": "success",
+  "createdAt": 1775457127894,
+  "updatedAt": 1776840727336,
+  "lastResponseAt": 1775458140657,
+  "sessionId": "1bd3a979-ac08-4072-aa30-24187d0e05b5",
+  "sdkSessionId": "1bd3a979-ac08-4072-aa30-24187d0e05b5",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 1,
+    "cacheCreationInputTokens": 2711,
+    "cacheReadInputTokens": 40105,
+    "contextWindow": 200000,
+    "contextTokens": 42817,
+    "percentage": 21
+  }
+}

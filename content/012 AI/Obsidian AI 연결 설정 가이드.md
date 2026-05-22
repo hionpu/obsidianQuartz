@@ -1,4 +1,5 @@
----
+﻿---
+type: reference
 title: Obsidian AI 연결 설정 가이드
 tags:
   - Obsidian

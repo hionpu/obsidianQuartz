@@ -1,4 +1,5 @@
----
+﻿---
+type: reference
 title: GitHub 블로그 개설하기(2) - Chirpy 테마 적용
 tags:
   - "#github"

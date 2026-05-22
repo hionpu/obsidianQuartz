@@ -1,4 +1,5 @@
----
+﻿---
+type: reference
 title: Rhino처럼 방향이 있는 arc 그리기
 tags:
   - "#rhino"

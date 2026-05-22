@@ -1,4 +1,5 @@
----
+﻿---
+type: reference
 title: SQLAlchemy로 PostgreSQL 다루는 방법
 tags:
   - python

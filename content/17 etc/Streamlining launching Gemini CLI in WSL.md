@@ -1,4 +1,5 @@
----
+﻿---
+type: reference
 title: Streamlining launching Gemini CLI in WSL
 tags: 
 categories: 

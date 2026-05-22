@@ -1,4 +1,5 @@
----
+﻿---
+type: reference
 title: Go chi - middleware pattern
 tags: 
 categories: 

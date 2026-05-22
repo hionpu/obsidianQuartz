@@ -1,4 +1,5 @@
----
+﻿---
+type: reference
 Title: Displaying Liquid Curly Brackets As it is
 tags:
   - "#html"

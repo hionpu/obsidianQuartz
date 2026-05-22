@@ -1,3 +1,8 @@
+﻿---
+type: reference
+created: 2026-05-15
+---
+
 # Elixir 비헤이비어와 콜백: 의도된 유연성과 런타임의 중요성 (feat. OOP 언어와의 비교)
 
 Elixir 개발을 하다 보면 `GenServer`나 `Phoenix.LiveView`와 같은 **비헤이비어(Behaviour)**를 접하게 됩니다. 이들은 `mount/2`, `render/1`, `handle_call/3` 등 특정 "콜백(Callback)" 함수를 구현하도록 요구하죠. 그런데 여기서 한 가지 의문이 생길 수 있습니다. `@behaviour` 어트리뷰트는 왜 필요한 걸까요? 그리고 `@callback`으로 선언된 함수가 언제는 필수이고 언제는 선택사항이 되는 걸까요? 마치 다른 OOP(객체 지향 프로그래밍) 언어의 "인터페이스 구현"과 비슷한데, 조금은 모호하게 느껴질 수 있습니다.

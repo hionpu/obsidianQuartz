@@ -1,3 +1,8 @@
+﻿---
+type: reference
+created: 2026-05-15
+---
+
 # CLAUDE.md — Contract-First Development
 
   

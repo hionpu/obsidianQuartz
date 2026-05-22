@@ -1,4 +1,5 @@
----
+﻿---
+type: reference
 title: WriteableBitmap을 이용한 성능 최적화 및 UI 스레드 블로킹 최소화
 tags:
   - "#WPF"

@@ -1,0 +1,20 @@
+{
+  "id": "conv-1779246262953-pwm58o3zn",
+  "title": "Outline Apex Legends controller strength video",
+  "titleGenerationStatus": "success",
+  "createdAt": 1779246262953,
+  "updatedAt": 1779247809049,
+  "lastResponseAt": 1779247809049,
+  "sessionId": "7277c3a7-a4fa-43de-bc1a-bb874b9d3646",
+  "sdkSessionId": "7277c3a7-a4fa-43de-bc1a-bb874b9d3646",
+  "currentNote": "content/018-YouTube/001-scripts/260518-long-beat-by-roller.md",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 1,
+    "cacheCreationInputTokens": 666,
+    "cacheReadInputTokens": 51382,
+    "contextWindow": 200000,
+    "contextTokens": 52049,
+    "percentage": 26
+  }
+}

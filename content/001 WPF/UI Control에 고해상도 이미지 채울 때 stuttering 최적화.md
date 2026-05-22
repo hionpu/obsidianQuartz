@@ -1,4 +1,5 @@
----
+﻿---
+type: reference
 title: UI Control에 고해상도 이미지 채울 때 stuttering 최적화
 tags: 
 categories: 

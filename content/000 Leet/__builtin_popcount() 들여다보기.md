@@ -1,4 +1,5 @@
----
+﻿---
+type: reference
 title: __builtin_popcount() 들여다보기
 tags:
   - 알고리즘

@@ -1,3 +1,8 @@
+﻿---
+type: reference
+created: 2026-05-15
+---
+
 # AI와 함께하는 Unity 게임 개발 가이드 (Contract-first + Verification Loop)
 
 > 이 문서는 [AI와 TDD 없는 상태에서 시작하는 Low Tech Dept 개발 가이드]의 Unity 전용 파생 문서다.

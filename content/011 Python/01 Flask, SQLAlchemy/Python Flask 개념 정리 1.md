@@ -1,4 +1,5 @@
----
+﻿---
+type: reference
 title: Python Flask 개념 정리 1
 tags:
   - python

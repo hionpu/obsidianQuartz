@@ -1,4 +1,5 @@
----
+﻿---
+type: reference
 title: JWT와 세션 인증 방식 비교
 tags:
   - authentication

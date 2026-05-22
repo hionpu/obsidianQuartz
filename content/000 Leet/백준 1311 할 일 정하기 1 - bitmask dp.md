@@ -1,4 +1,5 @@
----
+﻿---
+type: reference
 title: 백준 1311 할 일 정하기 1 - bitmask dp
 tags:
   - 알고리즘

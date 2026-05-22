@@ -1,4 +1,5 @@
----
+﻿---
+type: reference
 title: Visual Studio랑 백준 둘 다 통하는 popcount()
 tags:
   - "#알고리즘"

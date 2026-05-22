@@ -1,3 +1,8 @@
+﻿---
+type: reference
+created: 2026-05-15
+---
+
 # 보충 자료: 왜 컨텍스트를 줄여야 하는가
 
 > 이 문서는 _AI와 TDD 없는 상태에서 시작하는 Low Tech Dept 개발 가이드 (v4)_ 의 보충 자료다. 메인 가이드의 방법론—Spec, Invariant, Interface, Test를 먼저 정의하고 AI에게 구현을 위임하는 방식—이 **왜 효율적인가**를 컨텍스트 관점에서 설명한다.

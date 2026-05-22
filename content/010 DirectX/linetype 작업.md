@@ -1,4 +1,5 @@
----
+﻿---
+type: reference
 title: linetype 작업
 tags: 
 categories: 

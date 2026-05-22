@@ -1,4 +1,5 @@
----
+﻿---
+type: reference
 title: "Understanding Segment Trees: Three Key Insights"
 tags: 
 categories: 

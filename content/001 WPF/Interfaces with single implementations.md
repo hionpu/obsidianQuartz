@@ -1,4 +1,5 @@
----
+﻿---
+type: reference
 title: Interfaces with single implementations
 tags:
   - "#WPF"

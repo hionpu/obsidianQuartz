@@ -1,3 +1,8 @@
+﻿---
+type: reference
+created: 2026-05-15
+---
+
 ### 1. %AppData%\Roaming\Insights Capture 내부에 db.sqlite3를 DB Browser로 확인
 
 - video 테이블의 file_path: 녹화 파일이 실제로 어디 있는지랑 무관하게 얘가 기준임

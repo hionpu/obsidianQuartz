@@ -1,3 +1,8 @@
+﻿---
+type: reference
+created: 2026-05-15
+---
+
 # QuietPizza 유튜브 전략 개정안
 
 ## 채널 포지셔닝

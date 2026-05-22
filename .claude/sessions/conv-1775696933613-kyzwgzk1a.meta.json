@@ -1,0 +1,20 @@
+{
+  "id": "conv-1775696933613-kyzwgzk1a",
+  "title": "Convert code examples to C#/WPF and Python",
+  "titleGenerationStatus": "success",
+  "createdAt": 1775696933613,
+  "updatedAt": 1776840726587,
+  "lastResponseAt": 1775697799817,
+  "sessionId": "40db6ab7-c528-4b00-8507-6366d3ee868e",
+  "sdkSessionId": "40db6ab7-c528-4b00-8507-6366d3ee868e",
+  "currentNote": "content/012 AI/AI와 TDD+BDD 하기 - Low Tech Dept V4.md",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 1,
+    "cacheCreationInputTokens": 236,
+    "cacheReadInputTokens": 49883,
+    "contextWindow": 200000,
+    "contextTokens": 50120,
+    "percentage": 25
+  }
+}

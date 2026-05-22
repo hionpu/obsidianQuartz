@@ -1,4 +1,5 @@
----
+﻿---
+type: reference
 title: Buffers, Shaders, and HLSL
 tags:
   - "#directX"

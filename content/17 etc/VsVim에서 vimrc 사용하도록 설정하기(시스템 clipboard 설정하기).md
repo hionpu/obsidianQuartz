@@ -1,4 +1,5 @@
----
+﻿---
+type: reference
 title: VsVim에서 vimrc 사용하도록 설정하기(시스템 clipboard 설정하기)
 tags: 
 categories: 

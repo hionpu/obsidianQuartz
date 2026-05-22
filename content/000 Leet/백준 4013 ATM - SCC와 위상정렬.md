@@ -1,4 +1,5 @@
----
+﻿---
+type: reference
 title: 백준 4013 ATM - SCC와 위상정렬
 tags:
   - 알고리즘

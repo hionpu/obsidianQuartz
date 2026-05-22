@@ -1,3 +1,8 @@
+﻿---
+type: reference
+created: 2026-05-15
+---
+
 # AI VST와 x264 slow 인코딩 CPU 최적화
 
 **Created:** 3/13/2026 8:39:45  

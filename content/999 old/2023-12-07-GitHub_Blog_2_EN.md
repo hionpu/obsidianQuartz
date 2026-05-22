@@ -1,4 +1,5 @@
----
+﻿---
+type: reference
 title: Setting Up a GitHub Blog (2) - Applying the Chirpy Theme
 tags:
   - "#github"

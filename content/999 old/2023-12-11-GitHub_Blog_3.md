@@ -1,4 +1,5 @@
----
+﻿---
+type: reference
 title: GitHub 블로그 개설하기(3) - 포스팅
 tags:
   - "#github"

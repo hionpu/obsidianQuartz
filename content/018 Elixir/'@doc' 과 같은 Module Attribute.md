@@ -1,3 +1,8 @@
+﻿---
+type: reference
+created: 2026-05-15
+---
+
 Elixir에는 `#`을 이용한 주석 외에도 `@` 기호가 붙은 코드들이 있습니다. `@doc`, `@moduledoc`, `@spec` 등등. 이것들은 단순한 주석이 아니라, Elixir 컴파일러가 특별하게 처리하는 **`module attribute`** 라는 중요한 개념입니다.
 
 #### `module attribute`

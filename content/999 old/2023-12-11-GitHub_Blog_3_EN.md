@@ -1,4 +1,5 @@
----
+﻿---
+type: reference
 title: Setting Up a GitHub Blog (3) - Upload a Post
 tags:
   - "#github"

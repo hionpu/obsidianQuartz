@@ -1,0 +1,19 @@
+{
+  "id": "conv-1776840796386-rxwd1q5ui",
+  "title": "Organize YouTube video ideas with tags",
+  "titleGenerationStatus": "success",
+  "createdAt": 1776840796386,
+  "updatedAt": 1776995677143,
+  "lastResponseAt": 1776840862447,
+  "sessionId": "824439fc-d8a1-4d15-883a-3256b0dbbf45",
+  "sdkSessionId": "824439fc-d8a1-4d15-883a-3256b0dbbf45",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 1,
+    "cacheCreationInputTokens": 2323,
+    "cacheReadInputTokens": 36680,
+    "contextWindow": 200000,
+    "contextTokens": 39004,
+    "percentage": 20
+  }
+}

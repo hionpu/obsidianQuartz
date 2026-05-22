@@ -1,3 +1,8 @@
+﻿---
+type: reference
+created: 2026-05-15
+---
+
 # AI와 TDD 없는 상태에서 시작하는 Low Tech Dept 개발 가이드 (v4)
 
 ## 1. 이 문서의 목표

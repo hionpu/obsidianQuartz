@@ -1,4 +1,5 @@
----
+﻿---
+type: reference
 title: Python flask + gunicorn으로 vm에서 앱 자동 실행하기
 tags: 
 categories: 

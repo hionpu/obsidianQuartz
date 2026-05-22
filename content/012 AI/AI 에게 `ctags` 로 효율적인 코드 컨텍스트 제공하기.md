@@ -1,4 +1,5 @@
----
+﻿---
+type: reference
 title: AI 에게 `ctags` 로 효율적인 코드 컨텍스트 제공하기
 tags: 
 categories: 

@@ -1,4 +1,5 @@
----
+﻿---
+type: reference
 title: Setting Up a GitHub Blog (4) - Supporting Multiple Languages with Polyglot
 tags:
   - blog

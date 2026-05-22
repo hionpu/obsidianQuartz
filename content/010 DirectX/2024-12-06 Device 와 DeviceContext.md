@@ -1,4 +1,5 @@
----
+﻿---
+type: reference
 title: Device 와 DeviceContext
 tags: 
 categories: 

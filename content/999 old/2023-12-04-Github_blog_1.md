@@ -1,4 +1,5 @@
----
+﻿---
+type: reference
 title: " GitHub 블로그 개설하기(1) - Repository 생성과 테스트 페이지 확인하기"
 date: 2023-12-04 15:22
 lastmod: 2023-12-06 17:38

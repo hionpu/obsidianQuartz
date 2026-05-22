@@ -1,4 +1,5 @@
----
+﻿---
+type: reference
 title: " GitHub 블로그 개설하기(4) - Polyglot으로 다국어 지원하기"
 tags:
   - blog

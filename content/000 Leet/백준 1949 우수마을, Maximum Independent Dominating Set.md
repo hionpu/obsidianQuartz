@@ -1,4 +1,5 @@
----
+﻿---
+type: reference
 title: 백준 1949 우수마을, Maximum Independent Dominating Set
 tags:
   - "#코딩테스트"

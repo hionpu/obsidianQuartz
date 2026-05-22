@@ -1,4 +1,5 @@
----
+﻿---
+type: reference
 title: Greedy - (Weighted) Shortest Processing Time first Rule
 tags: 
 categories: 

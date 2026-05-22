@@ -1,3 +1,8 @@
+﻿---
+type: reference
+created: 2026-05-15
+---
+
 # 함수 절(Function Clause)
 
 Elixir를 처음 접하는 개발자라면 

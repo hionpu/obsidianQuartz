@@ -1,4 +1,5 @@
----
+﻿---
+type: reference
 title: Python flask + Postgre DB 구축하기
 tags:
   - "#python"

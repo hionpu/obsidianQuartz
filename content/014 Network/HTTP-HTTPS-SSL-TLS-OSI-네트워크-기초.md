@@ -1,4 +1,5 @@
----
+﻿---
+type: reference
 title: HTTP/HTTPS와 SSL/TLS, OSI 7계층 네트워크 기초
 tags:
   - network

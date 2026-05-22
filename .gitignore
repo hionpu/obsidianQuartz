@@ -10,3 +10,9 @@ private/
 .replit
 replit.nix
 .smart-env/
+
+
+
+
+# Ignore Smart Environment folder
+.smart-env

@@ -1,4 +1,5 @@
----
+﻿---
+type: reference
 title: LGG la-1 마우스 리뷰
 tags:
   - "#마우스"

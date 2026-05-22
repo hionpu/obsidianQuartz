@@ -1,0 +1,19 @@
+{
+  "id": "conv-1778027099036-ci01tzmmw",
+  "title": "인디게임 시리즈 세계관 및 개발 전략 기획",
+  "titleGenerationStatus": "success",
+  "createdAt": 1778027099036,
+  "updatedAt": 1779245713298,
+  "lastResponseAt": 1778810949542,
+  "sessionId": "ea962dfb-955c-4b4c-816d-552625d73434",
+  "sdkSessionId": "ea962dfb-955c-4b4c-816d-552625d73434",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 1,
+    "cacheCreationInputTokens": 29279,
+    "cacheReadInputTokens": 138352,
+    "contextWindow": 200000,
+    "contextTokens": 167632,
+    "percentage": 84
+  }
+}
