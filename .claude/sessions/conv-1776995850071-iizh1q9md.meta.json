@@ -3,18 +3,17 @@
   "title": "Add LLM vertical slice tip to guide",
   "titleGenerationStatus": "success",
   "createdAt": 1776995850071,
-  "updatedAt": 1778026053672,
-  "lastResponseAt": 1776997172260,
+  "updatedAt": 1780022472396,
+  "lastResponseAt": 1780022472396,
   "sessionId": "5e9374f6-d52c-46ee-b19d-2de8149576b7",
   "sdkSessionId": "5e9374f6-d52c-46ee-b19d-2de8149576b7",
-  "currentNote": "content/012 AI/AI와 TDD+BDD 하기 - Low Tech Dept V5.md",
   "usage": {
     "model": "opus",
-    "inputTokens": 1,
-    "cacheCreationInputTokens": 523,
-    "cacheReadInputTokens": 59342,
+    "inputTokens": 2,
+    "cacheCreationInputTokens": 431,
+    "cacheReadInputTokens": 266814,
     "contextWindow": 200000,
-    "contextTokens": 59866,
-    "percentage": 30
+    "contextTokens": 267247,
+    "percentage": 100
   }
 }

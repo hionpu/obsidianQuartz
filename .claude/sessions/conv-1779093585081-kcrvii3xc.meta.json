@@ -3,18 +3,18 @@
   "title": "Redesign cycle-01 as endless runner",
   "titleGenerationStatus": "success",
   "createdAt": 1779093585081,
-  "updatedAt": 1779245703573,
-  "lastResponseAt": 1779093732752,
+  "updatedAt": 1779859886132,
+  "lastResponseAt": 1779772813081,
   "sessionId": "614597b3-f1d4-4d9d-a324-941b3219d12a",
   "sdkSessionId": "614597b3-f1d4-4d9d-a324-941b3219d12a",
   "currentNote": "content/019-gamedev/cycle-01-약초꾼-시뮬레이터.md",
   "usage": {
     "model": "sonnet",
-    "inputTokens": 1,
-    "cacheCreationInputTokens": 863,
-    "cacheReadInputTokens": 34648,
+    "inputTokens": 3,
+    "cacheCreationInputTokens": 72549,
+    "cacheReadInputTokens": 0,
     "contextWindow": 200000,
-    "contextTokens": 35512,
-    "percentage": 18
+    "contextTokens": 72552,
+    "percentage": 36
   }
 }

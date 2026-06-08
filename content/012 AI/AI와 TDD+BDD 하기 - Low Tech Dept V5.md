@@ -774,6 +774,13 @@ Micro/Small로 판단되었다면, 아래 Step 3(SPEC 작성)과 Step 5(불변�
 ## Out of scope (절대 건드리지 말 것)
 - (예: 기존 인벤토리 로직 수정 금지, 네트워크 구조 변경 금지 등)
 
+## Context (읽어도 되는 범위) — Medium 이상
+owns (이번 slice가 소유·수정):
+- (예: InventorySystem.AddItem, QualityGrade)
+deps (읽기만 — 시그니처/요약으로 충분, 본문 불필요):
+- (예: ItemDatabase.Lookup, PlayerStats.Luck)
+# 이 목록에 없는 코드는 읽지 않는다. 필요하면 목록에 추가하고 한 줄 사유를 남긴다.
+
 ## User Flow
 1. ...
 2. ...
@@ -804,6 +811,20 @@ Micro/Small로 판단되었다면, 아래 Step 3(SPEC 작성)과 Step 5(불변�
 > - Acceptance Criteria는 반드시 **'예/아니오'로 판정 가능**해야 한다.
 > - **Non-goals/Out of scope가 비어 있으면 AI가 과구현할 확률이 높다.** 반드시 채울 것.
 
+#### Context 섹션: 컨텍스트를 명시적으로 경계 짓기 — Medium 이상
+
+세션을 시작할 때 "이 기능을 구현하려면 무엇을 읽어야 하는가"가 불명확하면, 안전하게 과하게 읽거나(토큰 직접 낭비) 덜 읽고 왕복한다(토큰 간접 낭비). `Context` 섹션은 이 read-set을 **미리 명시**해서 그 낭비를 끊는다.
+
+- **owns**: 이번 slice가 소유·수정하는 심볼/파일. **전문(full-text)으로** 본다.
+- **deps**: 경계 밖이지만 알아야 하는 것. **시그니처/요약만** 보면 충분하고 본문은 읽지 않는다. (규칙 3: 최소 컨텍스트)
+- 목록에 **없는 코드는 읽지 않는다.** 읽어야겠으면 목록에 추가하고 사유를 남긴다 — 이때 그 추가가 곧 "경계가 잘못 그어졌다"는 신호다.
+
+> **`Out of scope`와의 차이:** `Out of scope`는 *건드리면 안 되는* 집합(쓰기 금지), `Context`는 *읽어도 되는* 집합(읽기 허용 범위)이다. 둘은 짝을 이룬다.
+
+**적용 범위는 Medium 이상.** Micro/Small은 읽을 코드가 적어 굳이 경계를 적지 않는다(통점 = 작은 작업에 과한 의식 방지).
+
+> 💡 지금은 이 목록을 **사람이 손으로** 적지만, 이것은 의도적인 *수동 1단계*다. owns만 사람이 선언하면 deps를 코드 그래프(Roslyn/LSP)에서 **자동 유도**하는 도구로 진화시킬 수 있다(이때 수동 링크 블록 관리도 도구가 대신함). 배경과 단계별 계획은 [[하네스 설계 결정 - 컨텍스트 유도 이식]] 참고. 목록 유지가 귀찮아지는 순간이 곧 자동화로 넘어갈 신호다.
+
 #### 예시: MiniGame UI SPEC
 
 ```md
@@ -822,6 +843,15 @@ Micro/Small로 판단되었다면, 아래 Step 3(SPEC 작성)과 Step 5(불변�
 - 기존 ProximityPrompt 시스템 구조
 - 플레이어 데이터 저장 로직
 - 네트워크 아키텍처
+
+## Context (읽어도 되는 범위)
+owns (이번 slice가 소유·수정):
+- MiniGameUIController (신규)
+- OpenMiniGame RemoteEvent (신규)
+deps (읽기만 — 시그니처로 충분):
+- ProximityPrompt.Triggered  # 어떻게 발신되는지만 알면 됨
+- PlayerGui 구조  # UI를 붙일 위치 시그니처만
+# SaveSystem, 인벤토리 로직 등은 목록에 없으므로 읽지 않는다.
 
 ## User Flow
 1. 플레이어가 오브젝트 근처로 이동한다.
@@ -1446,6 +1476,7 @@ SPEC 업데이트:
 - [ ] 기능이 크면 수직 슬라이스로 분할
 - [ ] 각 슬라이스에 규모 판단 (Micro/Small/Medium/Large)
 - [ ] (Medium+) SPEC.md 작성 완료
+- [ ] (Medium+) Context 경계 선언 (owns 전문 / deps 시그니처)
 - [ ] 인터페이스 정의 완료 (직접 타이핑)
 - [ ] (Large) 불변식 3개 이상 정의 / (Small~Medium) CONTRACT 주석 작성
 - [ ] 수동 검증 체크리스트 작성
@@ -1664,6 +1695,13 @@ V1 실패: [증상 설명]
 
 ## Out of scope (절대 건드리지 말 것)
 - 
+
+## Context (읽어도 되는 범위) — Medium 이상
+owns (소유·수정, 전문으로 봄):
+- 
+deps (읽기만, 시그니처로 충분):
+- 
+# 목록에 없는 코드는 읽지 않는다. 추가 시 사유 한 줄.
 
 ## User Flow
 1. 
