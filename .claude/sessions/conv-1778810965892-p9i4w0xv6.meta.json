@@ -3,17 +3,17 @@
   "title": "Evaluate Zettelkasten adoption for Obsidian",
   "titleGenerationStatus": "success",
   "createdAt": 1778810965892,
-  "updatedAt": 1780887714617,
-  "lastResponseAt": 1780887714617,
+  "updatedAt": 1782115091038,
+  "lastResponseAt": 1782114752844,
   "sessionId": "cbf99c27-c670-4219-9cc8-cfb9fcfd759b",
   "sdkSessionId": "cbf99c27-c670-4219-9cc8-cfb9fcfd759b",
   "usage": {
     "model": "opus",
     "inputTokens": 2,
-    "cacheCreationInputTokens": 581,
-    "cacheReadInputTokens": 147338,
+    "cacheCreationInputTokens": 3021,
+    "cacheReadInputTokens": 182222,
     "contextWindow": 200000,
-    "contextTokens": 147921,
-    "percentage": 74
+    "contextTokens": 185245,
+    "percentage": 93
   }
 }

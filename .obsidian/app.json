@@ -1,0 +1,13 @@
+{
+  "alwaysUpdateLinks": true,
+  "userIgnoreFilters": [
+    "999 templates/",
+    "gemini-scribe/",
+    "docs/",
+    "node_modules/",
+    "public/",
+    "private/"
+  ],
+  "openBehavior": "daily",
+  "promptDelete": false
+}

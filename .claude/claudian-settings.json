@@ -40,7 +40,7 @@
   },
   "permissionMode": "normal",
   "model": "opus",
-  "thinkingBudget": "medium",
+  "thinkingBudget": "high",
   "enableAutoTitleGeneration": true,
   "titleGenerationModel": "",
   "show1MModel": false,

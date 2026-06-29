@@ -1,0 +1,266 @@
+{
+  "main": {
+    "id": "a0f1392fb5be2812",
+    "type": "split",
+    "children": [
+      {
+        "id": "3f7c14db63c9317c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fb7123827523dcb4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ZK/000 ZK 시작점.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "000 ZK 시작점"
+            }
+          },
+          {
+            "id": "8615dcd22869954d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/018-YouTube/003-stream-logs/스트리밍 복기 로그 인덱스.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "스트리밍 복기 로그 인덱스"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a7db7483ce45215c",
+    "type": "split",
+    "children": [
+      {
+        "id": "0ce88bd8dc416ad7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "883a31b0b0cae5ef",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "검색"
+            }
+          },
+          {
+            "id": "2bea82a172fc2201",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "북마크"
+            }
+          },
+          {
+            "id": "1dc9ecadf51c85a4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 336.5
+  },
+  "right": {
+    "id": "78a336d91a059223",
+    "type": "split",
+    "children": [
+      {
+        "id": "acff947883c3ae90",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "19890ac23103584b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "태그"
+            }
+          },
+          {
+            "id": "c802aa3bcbc7341e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "content/018-YouTube/001-scripts/260601-short-is-building-always-safe.md",
+                "followCursor": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "260601-short-is-building-always-safe 의 개요"
+            }
+          },
+          {
+            "id": "c5351ed2569ae8bb",
+            "type": "leaf",
+            "state": {
+              "type": "claudian-view",
+              "state": {},
+              "icon": "bot",
+              "title": "Claudian"
+            }
+          },
+          {
+            "id": "2e1be874ae1d6e5b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "content/012 AI/AI와 TDD+BDD 하기 - Low Tech Dept V4 (CSharp WPF Python).md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "AI와 TDD+BDD 하기 - Low Tech Dept V4 (CSharp WPF Python) 의 백링크"
+            }
+          },
+          {
+            "id": "e61446cc5d55a87b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "content/012 AI/AI와 TDD+BDD 하기 - Low Tech Dept V4 (CSharp WPF Python).md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "AI와 TDD+BDD 하기 - Low Tech Dept V4 (CSharp WPF Python) 의 나가는 링크"
+            }
+          },
+          {
+            "id": "9e76c9008805976d",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {},
+              "icon": "smart-connections",
+              "title": "Connections"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 520.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "smart-connections:Smart Connections: Open connections view": false,
+      "smart-connections:Toggle Footer Connections": false,
+      "smart-connections:Smart Connections: Open random connection": false,
+      "bases:새 베이스 생성하기": false,
+      "templater-obsidian:Templater": false,
+      "switcher:빠른 전환기 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "claudian:Open Claudian": false,
+      "random-note:무작위 노트 열기": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "github-sync:Sync with Remote": false,
+      "hide-folders:Show hidden folders": false
+    }
+  },
+  "active": "1dc9ecadf51c85a4",
+  "lastOpenFiles": [
+    "content/018-YouTube/랭크 1매치 편집 흐름.md",
+    "content/018-YouTube/001-scripts/260622_long_How_to_Practice_Keyboard_Aim.md",
+    "content/018-YouTube/유튜브 롱폼 포맷 템플릿.md",
+    "content/018-YouTube/003-stream-logs/스트리밍 복기 로그 인덱스.md",
+    "content/018-YouTube/003-stream-logs/desktop.ini",
+    "content/018-YouTube/스트리밍 복기 로그 인덱스.md.tmp.48076.ec204aa74bb5",
+    "content/018-YouTube/스트리밍 복기 로그 인덱스.md.tmp.48076.9cb2ca905a4e",
+    "content/018-YouTube/003-stream-logs",
+    "content/018-YouTube/스트리밍 복기 로그 인덱스.md.tmp.48076.94fc588bf009",
+    "999 templates/stream-log.md",
+    "999 templates/stream-log.md.tmp.48076.9e402c111c47",
+    "node_modules/micromark-util-sanitize-uri/desktop.ini",
+    "node_modules/moo/desktop.ini",
+    "node_modules/d3-hierarchy/desktop.ini",
+    "node_modules/d3-force/dist/desktop.ini",
+    "content/018-YouTube/001-scripts/260601-short-is-building-always-safe.md",
+    "ZK/000 ZK 시작점.md",
+    "inbox/팀원과 물리적으로 가까이.md",
+    "ZK-Index/lazy-propagation.md",
+    "ZK/6 Apex Legends.md",
+    "ZK/6d 과정 목표가 점수 불안을 없앤다.md",
+    "ZK/6e 팀원과 붙어 템포 올리기.md",
+    "ZK/6c 에임 트레이닝 빌드업.md",
+    "ZK/6b 수류탄으로 자리 밀어내기.md",
+    "ZK/6a 불리한 교전에서 클러치 시도.md",
+    "inbox/도망가지 않기.md",
+    "content/018-YouTube/004_idea/블렌더 grease pencil 영상 활용.md",
+    "ZK/_플러그인 설치 가이드.md",
+    "ZK/5b 게임 개발 사이클.md",
+    "ZK-Index/네트워크-프로토콜.md",
+    "ZK-Index/TDD.md",
+    "ZK-Index/youtube-전략.md",
+    "ZK-Index/contract-first.md",
+    "ZK-Index/세그먼트-트리.md",
+    "inbox/_inbox 처리 워크플로우.md",
+    "inbox/_fleeting 예시.md",
+    "Pasted image 20250708173020.png",
+    "Pasted image 20250708173018.png",
+    "public/images/giscus-repo.png",
+    "public/images/giscus-discussion.png",
+    "public/images/dns-records.png",
+    "public/images/custom-social-image-preview-dark.png",
+    "Pasted image 20241202102020.png",
+    "Pasted image 20241219134714.png",
+    "Pasted image 20241219134649.png",
+    "Pasted image 20241219134519.png",
+    "무제 파일.canvas"
+  ]
+}

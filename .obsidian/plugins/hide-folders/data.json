@@ -1,0 +1,15 @@
+{
+  "areFoldersHidden": true,
+  "matchCaseInsensitive": true,
+  "addHiddenFoldersToObsidianIgnoreList": false,
+  "hideBottomStatusBarIndicatorText": false,
+  "enableCompatQuickExplorer": false,
+  "attachmentFolderNames": [
+    "attachments",
+    "quartz",
+    "public",
+    "private",
+    "node_modules",
+    "docs"
+  ]
+}

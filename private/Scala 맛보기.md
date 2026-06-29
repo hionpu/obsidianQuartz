@@ -1,0 +1,1 @@
+[스칼라 컴파일러와 빌드툴 - Java 개발자를 위한 Scala 맛보기](https://scalabook.hatemogi.com/setup/scala.html)
