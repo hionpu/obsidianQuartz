@@ -1,0 +1,32 @@
+# ZK 구조 맵 (자동 생성 — 직접 수정 금지. 스크립트로 재생성)
+
+- 000 ZK 시작점 | tags: index | 이 vault의 Zettelkasten 진입점. Folgezettel 구조로 구성됨.
+- 1 CS 기초 개념 | tags: cs | 컴퓨터 과학의 핵심 개념들을 정리하는 허브.
+- 1a 자료구조 | tags: cs, 자료구조 | 핵심 질문: **어떤 연산이 얼마나 자주 발생하는가?**
+- 1b 알고리즘 패턴 | tags: cs, 알고리즘 | 핵심 통찰: **알고리즘 문제는 대부분 소수의 패턴으로 분류된다.**
+- 1c 네트워크 프로토콜 | tags: cs, 네트워크, 인증 | 핵심 통찰: **HTTP는 무상태(stateless)다.**
+- 1d 운영체제 개념 | tags: cs, os, 프로세스, 스레드 | 핵심 통찰: **프로세스 = 격리된 자원 컨테이너. 스레드 = 그 안의 실행 단위.**
+- 1e 데이터베이스 | tags: cs, db, 인덱스 | 핵심 통찰: **인덱스 = 읽기 속도를 위해 쓰기 비용을 지불하는 구조.**
+- 2 프로그래밍 실천 | tags: engineering, practice | 이론이 아닌 실제 작업 방식에 대한 노트들.
+- 2a TDD와 Contract-First | tags: engineering, TDD, contract-first, ai | 핵심 통찰: **사람이 계약을 소유하고, AI가 구현을 반복한다.**
+- 2b 인터페이스 설계 | tags: engineering, interface, design | 핵심 질문: **이 추상화가 실제로 필요한가, 아니면 습관적으로 추가한 것인가?**
+- 2c 성능 최적화 | tags: engineering, performance, UI | 핵심 원칙: **UI 스레드는 절대 블로킹하지 않는다.**
+- 3 기술 스택 | tags: tech-stack | 현재 주로 다루는 언어·프레임워크별 특이사항과 패턴.
+- 3a C# WPF | tags: tech-stack, csharp, wpf | 핵심 모델: **MVVM (Model-View-ViewModel)**
+- 3b Python Flask | tags: tech-stack, python, flask, sqlalchemy | 핵심 철학: **Flask는 마이크로 프레임워크 — 필요한 것을 직접 조합한다.**
+- 3c DirectX 그래픽스 | tags: tech-stack, directx, graphics, hlsl | 핵심 모델: **CPU는 명령을 제출하고, GPU가 실행한다.**
+- 3d Elixir | tags: tech-stack, elixir, functional | 핵심 철학: **모든 것이 함수 클로즈다.**
+- 4 AI 워크플로우 | tags: ai, workflow | AI 코딩 도구(Claude Code 등)를 실제로 잘 쓰기 위한 방법론.
+- 4a AI 코딩 도구 활용 | tags: ai, claude-code, mcp, ctags | 핵심 통찰: **AI에게 컨텍스트를 주는 것이 곧 결과 품질을 결정한다.**
+- 4b 프롬프트와 컨텍스트 전략 | tags: ai, prompt, token-efficiency | 핵심 통찰: **모호한 프롬프트는 그럴싸하지만 틀린 결과를 낳는다.**
+- 5 컨텐츠 창작 | tags: content, creative | YouTube 채널과 게임 개발의 기획·운영 노트.
+- 5a YouTube 전략 | tags: content, youtube, strategy | 핵심 포지셔닝: **"조용한 고랭크 에이펙스 해설 채널 (QuietPizza)"**
+- 5a1 '패드와 100번' 롱폼 영상 피드백 | tags: youtube, retention, intro, feedback, -- | 인트로의 긴 자기소개 문구는 이탈을 유발한다 — 핵심부터 빠르게 전달할 것.
+- 5a2 시작부터 복잡한 시각자료를 보여주면 | tags: youtube, retention, visuals, feedback | 복잡한 시각 자료(통계 그래프 등)를 그대로 띄우면 시청 유지율이 급락한다 — 단순화하거나 내레이션으로 풀어줄 것.
+- 5b 게임 개발 사이클 | tags: content, gamedev, product-cycle, solo-dev | 핵심 원칙: **완성된 게임 하나가 기획 10개보다 낫다.**
+- 6 Apex Legends | tags: gaming, ApexLegends, -- | 에이펙스 레전드 실력 향상을 위한 피드백·관찰·전략 허브.
+- 6a 불리한 교전에서 클러치 시도 | tags: apex, gaming, mental, 교전 | 3v3에서 팀원이 먼저 누워도 점수 보존하려 즉시 도망가지 말고, 불리해도 2인분 이상 해서 2v3·1v3을 이기려 **'시도'** 하라 — 시도 자체가 실력을 키운다.
+- 6b 수류탄으로 자리 밀어내기 | tags: apex, gaming, util, 교전 | 근거리 수류탄은 데미지뿐 아니라 **공간을 밀어내는(zoning) 도구**다.
+- 6c 에임 트레이닝 빌드업 | tags: apex, gaming, aim, 가설 | **(가설)** 손의 과한 반응·예측을 억제하는 시나리오로 뇌를 calm down 시킨 뒤 본 루틴을 하면, 좋은 습관을 강화하고 나쁜 습관을 줄일 수 있다.
+- 6d 과정 목표가 점수 불안을 없앤다 | tags: apex, gaming, mental | "점수 신경 끄자"고 생각하는 것보다, 구체적 지향점(준콤, HisWattson 등 **과정 목표** 또는 **롤 모델 목표**)을 세우면 점수 불안이 *부가적으로* 사라진다.
+- 6e 팀원과 붙어 템포 올리기 | tags: apex, gaming, positioning, 팀플레이 | 팀원과 물리적으로 가까이 있는 것만으로 팀 전투력이 오른다 — 붙어서 템포를 높인다.
